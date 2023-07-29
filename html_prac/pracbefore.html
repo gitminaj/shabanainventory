@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container {
+            display:flex ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 250px 0px;
+        }
+        .container p{
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .container input[type=search]{
+            width: 40%;
+            height: 40px;
+        }
+         .container::before {
+            content: "";
+            background: url('https://ietp-web-cdn-eandt-cache.azureedge.net/f/1/c/1/c/9/f1c1c93f3f0266e714d071a5f9ba273802ba7c64.jpg') no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-size: 80em;
+            opacity: 0.5;
+        }  
+    </style>
+</head>
+
+<body>
+    <div class="container">
+           <p>minaj</p> 
+        <input type="search" placeholder="search here">        
+    </div>
+</body>
+
+</html>
